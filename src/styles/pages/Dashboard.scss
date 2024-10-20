@@ -1,0 +1,191 @@
+
+@media screen and (max-width: 580px){
+
+  body{
+    overflow-x: hidden;
+  }
+  
+  .dashboard__layout {
+
+    background-size: cover; /* Hace que la imagen ocupe toda la pantalla */
+    background-attachment: fixed; /* Fija la imagen para que no se desplace con el contenido */
+    width: 102vw;
+    min-height: 100vh;
+    background-position: 11px 50px;
+    background-repeat: no-repeat;
+  
+  }
+    .dahboard__content {
+      height: 50vh;
+      border: 1px solid #d9d9d9;
+      border-radius: 2rem;
+      margin: 0 auto;
+      margin-top: 10rem;
+      background: #fff;
+      width: 50%;
+      box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+      z-index: 1;
+    }
+    
+    .content__options {
+      display: grid;
+      grid-template-columns: 60% 40%;
+    }
+    
+    .content__title {
+      font-size: 2.5rem;
+      margin: 1.2rem;
+    }
+    
+    .content__subtitle {
+      font-size: 1.5rem;
+      margin-left: 1.2rem;
+    }
+    
+    .content__search-bar {
+      width: 50%;
+      margin: 1.2rem;
+      border: 1px solid #848484;
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      border-radius: 1rem;
+    }
+    
+    .content__info {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .content__trm {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .content__cards {
+      height: 20vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+    }
+    
+    .content__card {
+      border: 1px solid #b4b4b4;
+      border-radius: 1rem;
+      padding: 1rem;
+      margin: 1rem;
+      width: 30%;
+      height: 10rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .card__icon {
+      font-size: 5rem;
+      color: #153a61;
+    }
+    
+    .card__title {
+      color: #153a61;
+      font-size: 1.2rem;
+    }
+    
+}
+
+@media screen and (min-width: 581px){
+  .dashboard__layout {
+
+    background-size: cover; /* Hace que la imagen ocupe toda la pantalla */
+    background-attachment: fixed; /* Fija la imagen para que no se desplace con el contenido */
+    width: 100%;
+    min-height: 100vh;
+    background-position: 11px 50px;
+    background-repeat: no-repeat;
+  
+  }
+    
+    .dahboard__content {
+      height: 50vh;
+      border: 1px solid #d9d9d9;
+      border-radius: 2rem;
+      margin: 0 auto;
+      margin-top: 10rem;
+      background: #fff;
+      width: 50%;
+      box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+      z-index: 1;
+    }
+    
+    .content__options {
+      display: grid;
+      grid-template-columns: 60% 40%;
+    }
+    
+    .content__title {
+      font-size: 2.5rem;
+      margin: 1.2rem;
+    }
+    
+    .content__subtitle {
+      font-size: 1.5rem;
+      margin-left: 1.2rem;
+    }
+    
+    .content__search-bar {
+      width: 50%;
+      margin: 1.2rem;
+      border: 1px solid #848484;
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      border-radius: 1rem;
+    }
+    
+    .content__info {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .content__trm {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .content__cards {
+      height: 20vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+    }
+    
+    .content__card {
+      border: 1px solid #b4b4b4;
+      border-radius: 1rem;
+      padding: 1rem;
+      margin: 1rem;
+      width: 30%;
+      height: 10rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .card__icon {
+      font-size: 5rem;
+      color: #153a61;
+    }
+    
+    .card__title {
+      color: #153a61;
+      font-size: 1.2rem;
+    }
+    
+  
+}

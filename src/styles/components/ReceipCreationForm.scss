@@ -1,0 +1,256 @@
+.container-box.event-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.container-box.event-section .box__event--form {
+  width: 100%;
+}
+.container-box.event-section .box__event--form {
+  width: 100%;
+}
+
+.container-box.event-section .box__event--form > .income-charge-form {
+  width: 100% !important;
+}
+.container-box.event-section .box__event--form > .income-charge-form {
+  width: 100% !important;
+}
+
+.container-box.event-section .box__event--form > .income-charge-form > div {
+  display: flex;
+  flex-direction: row !important;
+  gap: 10px;
+}
+
+.container-box.event-section .box__event--form > .income-charge-form > div .form-row:nth-child(3) {
+  display: block !important;
+}
+
+.repacking-container {
+  overflow-y: auto;
+  width: 90vw;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.main-commodity {
+  display: flex;
+  // justify-content: space-around;
+  // justify-content: space-around;
+  background-color: #f7f7f7;
+  border: 2px solid #ddd;
+  padding: 10px;
+  font-size: 12px;
+  font-size: 12px;
+
+  // margin-bottom: 15px;
+  // border-radius: 5px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.item-description {
+  font-weight: bold;
+  // margin: 5px 50px;
+  width: 10vw;
+  text-align: left;
+  // margin: 5px 50px;
+  width: 10vw;
+  text-align: left;
+}
+
+.item-info {
+  // margin: 5px 25px;
+  width: 14vw;
+  text-align: left;
+  // font-weight: bold;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-wrapper {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.image-wrapper img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.image-wrapper img:hover {
+  cursor: pointer;
+}
+
+.image-wrapper span {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.attachment-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.attachment-name{
+  padding: 4px;
+}
+
+.attachment-wrapper {
+  position: relative; 
+  margin-right: 12px;
+  margin-left: 2px;
+  margin-bottom: 5px;
+  border: 1px solid #a3a3a3d2;
+  border-radius: 11px;
+  background: #f1f1f1;
+}
+
+.attachment-wrapper img,
+.attachment-wrapper embed {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.attachment-wrapper img:hover {
+  cursor: pointer;
+}
+
+.attachment-wrapper span {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 13px;
+  font-family: 'poppins';
+}
+
+.delete-button-container {
+  position: relative;
+  top: 5px;
+  margin-bottom: 10px;
+}
+
+.custom-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.delete-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: #006BAD;
+  border-radius: 50%;
+  color: white;
+  font-size: 16px;
+}
+
+.delete-icon span {
+  display: inline-block;
+  transform: rotate(90deg);
+  line-height: 24px;
+  margin-bottom: 5px;
+  font-size: 17px;
+  // margin-right: 2px;
+ 
+  font-size: x-large;
+}
+
+.attachment-name {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.preview-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.preview-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Cambiado de center a flex-start */
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: auto;
+}
+
+.preview-container div[dangerouslySetInnerHTML] {
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+}
+
+.preview-container img,
+.preview-container iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.preview-container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  overflow: auto; 
+}
+
+.preview-container table,
+.preview-container th,
+.preview-container td {
+  border: 1px solid #ddd;
+}
+
+.preview-container th,
+.preview-container td {
+  padding: 8px;
+  text-align: left;
+}
+
+.preview-container th {
+  background-color: #f2f2f2;
+}
+
+#clienTo{
+width: 70%;
+}
+
+.clienToDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

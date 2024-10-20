@@ -1,0 +1,70 @@
+.company-form.release-order {
+    .containerr:first-child .cont-one {
+        margin-inline: auto;
+        width: auto;
+        gap: 5%;
+        & > div {
+            width: 100%;
+            & >div {
+                height: 100%;
+            }
+        }
+        & > div:nth-child(2) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .company-form__section {
+            display: flex;
+            flex-direction: column;
+            height: 31% !important;
+            margin-bottom: 5% !important;
+            width: 100% !important;
+            label + div {
+                width: 100% !important;
+                margin: 0 !important;
+                & > div {
+                    width: auto !important;
+                }
+            }
+            label + input {
+                height: 40px;
+            }
+            label + div > input {
+                height: 29px !important;
+            }
+            label, input {
+                width: 90% !important;
+            }
+        }
+    }
+    .form-label_name + .containerr {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        & .cont-two, .cont-one {
+            width: 33%;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            .company-form__section{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                input {
+                    height: 40px;
+                }
+                #mainCarrier{
+                    margin:  0 !important;
+                }
+                & .form-group {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}

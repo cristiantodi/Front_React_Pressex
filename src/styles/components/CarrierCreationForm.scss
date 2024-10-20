@@ -1,0 +1,625 @@
+@media screen and (max-width: 580px) {
+
+.layout-fluid_form {
+  padding-left: 0px !important;
+}
+
+.company-form {
+  color: #565656;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  // gap: 3rem;
+  margin: 2rem 0;
+
+  // .form-textarea{
+  //   width: 90% !important;
+  // }
+  
+ 
+  &__tabs-button-container {
+    margin-bottom: 20px;
+    background-color: rgba(240, 240, 240, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    &__tabs-button,
+    &__button {
+      margin: 5px;
+      background-color: rgba(240, 240, 240, 255);
+      color: black;
+      border: 1px solid rgba(225, 225, 225, 255);
+    }
+  }
+
+  &__section {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  &__label {
+    color: #565656;
+    width: 200px;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  &__input {
+    background-color: whitesmoke;
+    height: 30px;
+    width: 300px;
+    margin: 2px;
+    color: black;
+    padding: 5px;
+  }
+
+  .input-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+
+
+  #phone2,
+  #identificacionNumber {
+    max-width: 100% !important;
+    font-size: medium;
+    height: 3rem;
+    padding: 0 0 0 1%;
+
+  }
+
+  &__options-container {
+    margin-right: 28% !important;
+    position: static;
+    bottom: 0px;
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    height: 20rem;
+    margin: 5vw;
+
+    &__option {
+      margin: 15px;
+      background-color: rgba(225, 225, 225, 255);
+      border: 1px solid rgba(225, 225, 225, 255);
+      color: black;
+    }
+  }
+
+  &__table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+    & thead tr {
+      background-color: #add8e6;
+      color: #ffffff;
+      text-align: left;
+    }
+
+    & td {
+
+      text-align: left;
+    }
+
+    & tbody tr {
+      border-bottom: 1px solid #dddddd;
+    }
+
+    & tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+    }
+
+    & tbody tr:last-of-type {
+      border-bottom: 2px solid #add8e6;
+    }
+  }
+
+  &__other-addresses-form {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__addresses-options {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__agent-form {
+    margin: 15px;
+    margin-left: 30px;
+  }
+
+  .startup-wizard-form__text-area {
+    width: 50%;
+    height: 150px;
+  }
+
+  .form{
+      margin:  1% 5% 1% 5%;
+      width: 90%;
+      margin-top: 3%;
+  }
+
+  .form-input{
+    width: 70vw;
+    font-size: 14px;
+    background: white;
+    color: #818080;
+    height: 3rem;
+    padding: 0 0 0 1rem;
+    // font-size: initial;
+
+    &__exten{
+      width: 20rem;
+      background: whitesmoke;
+      color: black;
+      height: 3rem;
+      padding: 0 0 0 1rem;
+      font-size: initial;
+    }
+    &__num{
+      width: 6rem;
+      background: whitesmoke;
+      color: black;
+      height: 3rem;
+      padding: 0 0 0 1rem;
+      font-size: initial;
+    }
+  }
+
+  .form-label{ 
+    // width: 70%;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0rem;
+    &__change{
+      font-weight: bold;
+      font-size: small;
+      margin: 0;
+    }
+  }
+
+  .form-textarea{
+    width: 100%;
+    background: white;
+    color: #818080;
+    font-size: 14px;
+    border-color: #bbb0b0;
+  }
+
+  .form-checkbox{
+    height: 2rem;
+    width: 2rem;
+  }  
+}
+.meaure{
+  display: flex;
+  align-items: flex-start !important;
+  padding: 0 0 0 3rem;
+}
+
+#charges, #commodities {
+  width: 90%;
+}
+
+.nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus,
+.nav-tabs .nav-item.open .nav-link:hover, .nav-tabs .nav-link.active, 
+.nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover {
+  background-color: #006BAD !important;
+  border-radius: 5px;
+  color: #ffffff !important;
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-width: var(--bs-border-width);
+  --bs-nav-tabs-border-color: #ecf0f1;
+  border: solid 1px #C1C1C1;
+  border-radius: 5px;
+  background: #C1C1C1;
+  --bs-nav-link-color: #626262;
+  --bs-nav-link-hover-color: #040404;
+  --bs-nav-link-disabled-color: #95a5a6;
+  border: 1px solid #666666;
+  color: white;
+
+  & li {
+    transition: background 1s ease;
+  }
+  & li > a{
+    transition: color 1s ease;
+    color: #82918e;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  & li:hover{
+    background: rgb(170, 168, 168);
+    & a{
+      color: black !important;
+    }
+  }
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));
+  border: var(--bs-nav-tabs-border-width) solid transparent;
+  border-top-left-radius: var(--bs-nav-tabs-border-radius);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-top-right-radius: 1;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #575757;
+}
+
+.form-container {
+  width: 100%; /* O el ancho deseado */
+  // height: 50vw; /* O la altura deseada */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.MuiPaper-root{
+  color: white !important;
+  font-size: 20px !important;
+}
+
+.css-yslrua-MuiTypography-root-MuiAlertTitle-root{
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+.css-1ytlwq5-MuiAlert-icon {
+  padding: 24px 0;
+  font-size: 35px;
+}
+
+}
+
+
+@media screen and (min-width: 581px) {
+  .company-form {
+    color: #565656;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+    margin: 2rem 0;
+  
+    // .form-textarea{
+    //   width: 90% !important;
+    // }
+    
+   
+    &__tabs-button-container {
+      margin-bottom: 20px;
+      background-color: rgba(240, 240, 240, 255);
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+  
+      &__tabs-button,
+      &__button {
+        margin: 5px;
+        background-color: rgba(240, 240, 240, 255);
+        color: black;
+        border: 1px solid rgba(225, 225, 225, 255);
+      }
+    }
+  
+    &__section {
+      margin: 0;
+      margin-bottom: 15px;
+    }
+  
+    &__label {
+      color: #565656;
+      width: 200px;
+      display: inline-block;
+      white-space: nowrap;
+    }
+  
+    &__input {
+      background-color: whitesmoke;
+      height: 30px;
+      width: 300px;
+      margin: 2px;
+      color: black;
+      padding: 5px;
+    }
+  
+    .input-number::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  
+    #phone2,
+    #identificacionNumber {
+      max-width: 100% !important;
+      font-size: medium;
+      height: 3rem;
+      padding: 0 0 0 1%;
+  
+    }
+  
+    &__options-container {
+      position: static;
+      bottom: 0px;
+      display: flex;
+      width: 40%;
+      justify-content: space-evenly;
+      height: 20rem;
+  
+      &__option {
+        margin: 15px;
+        background-color: rgba(225, 225, 225, 255);
+        border: 1px solid rgba(225, 225, 225, 255);
+        color: black;
+      }
+    }
+
+    &__options-carrier {
+      position: static;
+      bottom: 0px;
+      display: flex;
+      width: 40%;
+      justify-content: space-evenly;
+      // height: 20rem;
+
+    }
+  
+    &__table {
+      border-collapse: collapse;
+      margin: 25px 0;
+      font-size: 0.9em;
+      font-family: sans-serif;
+      width: 100%;
+      height: 100%;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
+      & thead tr {
+        background-color: #add8e6;
+        color: #ffffff;
+        text-align: left;
+      }
+  
+      & td {
+  
+        text-align: left;
+      }
+  
+      & tbody tr {
+        border-bottom: 1px solid #dddddd;
+      }
+  
+      & tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+      }
+  
+      & tbody tr:last-of-type {
+        border-bottom: 2px solid #add8e6;
+      }
+    }
+  
+    &__other-addresses-form {
+      width: 100%;
+      height: 100%;
+    }
+  
+    &__addresses-options {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    &__agent-form {
+      margin: 15px;
+      margin-left: 30px;
+    }
+  
+    .startup-wizard-form__text-area {
+      width: 50%;
+      height: 150px;
+    }
+  
+    .form{
+        margin:  1% 5% 1% 5%;
+        width: 90%;
+        margin-top: 3%;
+    }
+  
+    .form-input{
+      width: 100% !important;
+      font-size: 14px;
+      background: white;
+      color: #818080;
+      height: 3rem;
+      padding: 0 0 0 1rem;
+      // font-size: initial;
+  
+      &__exten{
+        width: 20rem;
+        background: whitesmoke;
+        color: black;
+        height: 3rem;
+        padding: 0 0 0 1rem;
+        font-size: initial;
+      }
+      &__num{
+        width: 6rem;
+        background: whitesmoke;
+        color: black;
+        height: 3rem;
+        padding: 0 0 0 1rem;
+        font-size: initial;
+      }
+    }
+  
+    .form-label{ 
+      // width: 70%;
+      white-space: nowrap;
+      text-align: left;
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 0rem;
+      &__change{
+        font-weight: bold;
+        font-size: small;
+        margin: 0;
+      }
+    }
+  
+    .form-textarea{
+      width: 100%;
+      background: white;
+      color: #818080;
+      font-size: 14px;
+      border-color: #bbb0b0;
+    }
+  
+    .form-checkbox{
+      height: 2rem;
+      width: 2rem;
+    }  
+  }
+  .meaure{
+    display: flex;
+    align-items: flex-start !important;
+    padding: 0 0 0 3rem;
+  }
+  
+  #charges, #commodities {
+    width: 90%;
+  }
+  
+  .nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus,
+  .nav-tabs .nav-item.open .nav-link:hover, .nav-tabs .nav-link.active, 
+  .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover {
+    background-color: #006BAD !important;
+    border-radius: 5px;
+    color: #ffffff !important;
+  }
+  
+  .nav-tabs {
+    --bs-nav-tabs-border-width: var(--bs-border-width);
+    --bs-nav-tabs-border-color: #ecf0f1;
+    border: solid 1px #C1C1C1;
+    border-radius: 5px;
+    background: #C1C1C1;
+    --bs-nav-link-color: #626262;
+    --bs-nav-link-hover-color: #040404;
+    --bs-nav-link-disabled-color: #95a5a6;
+    border: 1px solid #666666;
+    color: white;
+  
+    & li {
+      transition: background 1s ease;
+    }
+    & li > a{
+      transition: color 1s ease;
+      color: #82918e;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    & li:hover{
+      background: rgb(170, 168, 168);
+      & a{
+        color: black !important;
+      }
+    }
+  }
+  
+  .nav-tabs .nav-link {
+    margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));
+    border: var(--bs-nav-tabs-border-width) solid transparent;
+    border-top-left-radius: var(--bs-nav-tabs-border-radius);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-top-right-radius: 1;
+  }
+  
+  .nav-link:focus, .nav-link:hover {
+    color: #575757;
+  }
+  
+  .form-container {
+    width: 100%; /* O el ancho deseado */
+    // height: 50vw; /* O la altura deseada */
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .form-container_carrier{
+    margin: -15px 0px 0px 0px;
+  }
+  
+  .MuiPaper-root{
+    color: white !important;
+    font-size: 20px !important;
+  }
+  
+  .css-yslrua-MuiTypography-root-MuiAlertTitle-root{
+    font-size: 20px !important;
+    font-weight: bold !important;
+  }
+  
+  .css-1ytlwq5-MuiAlert-icon {
+    padding: 24px 0;
+    font-size: 35px;
+  }
+
+  .copy-label{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    // display: inline-block;
+    font-size: 13px;
+    border-color: #006bad;
+    background-color: #006bad;
+    color: white;
+    // font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+
+  }
+
+  .copy-label_add{
+    background: none;
+    margin-right: 1rem;
+    border: 2px solid #dfdfdf;
+    border-radius: 8px;
+  }
+
+  .copy-label_edit{
+    background: none;
+    margin-right: 1rem;
+    border: 2px solid #dfdfdf;
+    border-radius: 8px;
+  }
+
+  .button-icon {
+    background: none;
+    border: none;
+    color: #006BAD;
+    margin: 0.5rem;
+    font-size: medium !important;
+  }
+  
+  }
+
+// ::-webkit-scrollbar {
+//   width: 15px; /* Ancho del scrollbar */
+// }

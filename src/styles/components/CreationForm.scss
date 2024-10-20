@@ -1,0 +1,76 @@
+.creation {
+    &-container {
+        margin-bottom: 4vw;
+        min-height: 100%;
+        padding: 2rem;
+        border-radius: 2px;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0px 0px 3px 1px rgb(40 40 40 / 75%);
+        -moz-box-shadow: 0px 0px 3px 1px rgb(40 40 40 / 75%);
+        box-shadow: 0px 0px 3px 1px rgb(40 40 40 / 75%);
+
+    }
+
+    &-carrier {
+        margin-bottom: 1vw;
+        margin-left: 3vw !important;
+        min-height: 47%;
+        padding: 1rem;
+        border-radius: 2px;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0px 0px 3px 1px rgb(40 40 40 / 75%);
+        -moz-box-shadow: 0px 0px 3px 1px rgb(40 40 40 / 75%);
+        box-shadow: 0px 0px 3px 1px rgb(40 40 40 / 75%);
+
+    }
+
+    
+    &-form {
+        min-width: 100% !important;
+        margin-left: 3vw !important;
+        margin-bottom: 1vw;
+        min-height: 97%;
+        padding: 1rem;
+        border-radius: 2px;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0px 0px 3px 1px rgb(40 40 40 / 75%);
+        -moz-box-shadow: 0px 0px 3px 1px rgb(40 40 40 / 75%);
+        box-shadow: 0px 0px 3px 1px rgb(40 40 40 / 75%);
+
+    }
+
+       
+    &-form_general {
+        margin-bottom: 1vw;
+        min-height: 95%;
+        min-width: 115% !important; 
+        padding: 1rem;
+        border-radius: 2px;
+        background-color: #FFFFFF;
+        -webkit-box-shadow: 0px 0px 3px 1px rgb(40 40 40 / 75%);
+        -moz-box-shadow: 0px 0px 3px 1px rgb(40 40 40 / 75%);
+        box-shadow: 0px 0px 3px 1px rgb(40 40 40 / 75%);
+
+    }
+
+    &-label {
+        display: block !important;
+        position: relative !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+#employeeId {
+    margin-bottom: 1rem !important;
+}
+
+.MuiYearCalendar-root.css-1n9wbkw-MuiYearCalendar-root {
+    color: black !important;
+}
+
+.col-3{
+    width: 24% !important;
+}
+
+

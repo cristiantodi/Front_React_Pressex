@@ -1,0 +1,53 @@
+.navbar__layout {
+  background-color: var(--secondary-color);
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 0 3rem 0 0;
+}
+
+.profile__card {
+margin: 0 2.5rem;
+width: 25rem;
+height: inherit;
+display: grid;
+grid-template-columns: 70% 30%;
+align-items: center;
+justify-content: space-evenly;
+border-radius: 1.2rem;
+box-shadow: 0 0 100px -5px rgba(0, 0, 0, 0.25);
+}
+
+.profile__username {
+color: var(--primary-color);
+padding: 2rem;
+border-right: 1px solid white;
+border-radius: 3rem;
+}
+
+.profile__icon {
+font-size: 4rem;
+color: var(--primary-color);
+}
+
+.logo{
+  position: absolute;
+  width: 13%;
+  min-width: 3rem;
+  padding: 0px;
+  margin: 0 0% 1vh 0.8vh;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    --bs-nav-link-color: #ffffff;
+    
+}
+

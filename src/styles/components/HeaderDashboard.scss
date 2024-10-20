@@ -1,0 +1,117 @@
+@media screen and (max-width: 580px){
+    
+    .header-dashboard__container {
+    width: 77%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px #5a5959;
+    background: white;
+    margin-left: 0;
+    margin-inline: auto;
+    margin-top: 3vh;
+    padding: 20px;
+    // display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    margin-left: 13vw !important;
+
+    header {
+        div:first-child {
+            h1, h3 {
+                text-align: center;
+                font-weight: bold;
+                color: #416081;
+            }
+
+            h3 {
+                font-size: 16px;
+            }
+            margin-bottom: 8px;
+        }
+
+        div:last-child {
+            input {
+                background: #CECECE;
+                border-radius: 5px;
+                border: none;
+
+                width: 100%;
+                padding: 7px;
+                margin-bottom: 5px;
+
+            }
+            div {
+                font-size: 15px;
+            }
+        }
+    }
+
+    article {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+}}
+@media screen and (min-width: 581px){
+    .header-dashboard__container {
+        width: 70%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 2px 2px 20px #5a5959;
+        background: white;
+    
+        margin-left: 0;
+        margin-inline: auto;
+        margin-top: 8vh;
+        padding: 20px;
+    
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        align-items: center;
+    
+        header {
+            div:first-child {
+                h1, h3 {
+                    text-align: center;
+                    font-weight: bold;
+                    color: #416081;
+                }
+    
+                h3 {
+                    font-size: 16px;
+                }
+                margin-bottom: 8px;
+            }
+    
+            div:last-child {
+                input {
+                    background: #CECECE;
+                    border-radius: 5px;
+                    border: none;
+    
+                    width: 100%;
+                    padding: 7px;
+                    margin-bottom: 5px;
+    
+                }
+                div {
+                    font-size: 10px;
+                }
+            }
+        }
+    
+        article {
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            align-items: center;
+        }
+    }
+}
+

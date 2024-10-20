@@ -1,0 +1,308 @@
+@media screen and (max-width: 580px){
+  body {
+  
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: rgba(255, 255, 255, 0);
+    font-size: 1.5rem;
+  }
+  
+  #contenedor {
+    background-image: url(../../img/fondo.jpeg);
+    background-size: cover;             /* Hace que la imagen ocupe toda la pantalla */
+    background-position: center center; /* Centra la imagen en la pantalla */
+    background-attachment: fixed;       /* Fija la imagen para que no se desplace con el contenido */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+  
+  #central {
+    max-width: 76%;
+    width: 100%;
+  }
+  
+  .titulo {
+    color: rgb(112, 112, 112);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #login {
+    width: 80%;
+    padding: 8% 6% 6% 6%;
+    max-width: 50rem;
+    background-color: #ffffffd4;
+    border-radius: 5%;
+    box-sizing: border-box;
+    opacity: 0.9;
+    margin: 0 10% 0 10%;
+    
+    input {
+      font-family: 'Overpass', sans-serif;
+      font-size: 1.7rem;
+      color: #1b262c;
+      display: block;
+      width: 100%;
+      height: 4rem;
+      margin-bottom: 0px;
+      padding: 1px 1px 1px 4%;
+      box-sizing: border-box;
+      border-radius: 1rem;
+      border:  1px solid grey;
+      
+      &::placeholder {
+        font-family: 'Overpass', sans-serif;
+        color: #E4E4E4;
+      }
+    }
+    
+    button {
+      font-family: 'Overpass', sans-serif;
+      font-size: 200%;
+      font-weight: bold;
+      color: #ffffff;
+      width: 100%;
+      height: 40px;
+      border: none;
+      border-radius: 1rem;
+      background-color: #5ebeff;
+      margin-top: 8%;
+      
+      &:hover {
+        background-color: #0f4c75;
+        color: #bbe1fa;
+      }
+    }
+  }
+  
+  .pie-form {
+    font-size: 90%;
+    text-align: center;
+    margin-top: 15px;
+    
+    a {
+      display: block;
+      text-decoration: none;
+      color: #bbe1fa;
+      margin-bottom: 3px;
+      
+      &:hover {
+        color: #0f4c75;
+      }
+    }
+  }
+  
+  .inferior {
+    margin-top: 10px;
+    font-size: 90%;
+    text-align: center;
+    
+    a {
+      display: block;
+      text-decoration: none;
+      color: #bbe1fa;
+      margin-bottom: 3px;
+      
+      &:hover {
+        color: #3282b8;
+      }
+    }
+  }
+  
+  .sub-text {
+    padding: 12% 0 0 0;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(112, 112, 112);
+  }
+  
+  .text-log {
+    font-weight: 600;
+    padding: 2rem 0 0 0;
+    font-size: 1.7rem;
+    text-align: left;
+    color: rgb(112, 112, 112);
+  }
+  
+  .sub-forgot {
+    text-align: right;
+  }
+  
+  .logo_login {
+    width: 100%;
+    padding: 0 0 4% 0;
+  }
+  
+  .select-leng {
+    margin: 1% 0 0 0;
+    background-color: rgba(247, 12, 12, 0);
+    border: none;
+  }
+  
+}
+@media screen and (min-width: 581px){
+  body {
+  
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: rgba(255, 255, 255, 0);
+    font-size: 1.5rem;
+  }
+  
+  #contenedor {
+    background-image: url(../../img/fondo.jpeg);
+    background-size: cover;             /* Hace que la imagen ocupe toda la pantalla */
+    background-position: center center; /* Centra la imagen en la pantalla */
+    background-attachment: fixed;       /* Fija la imagen para que no se desplace con el contenido */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+  
+  #central {
+    max-width: 32%;
+    width: 100%;
+  }
+  
+  .titulo {
+    color: rgb(112, 112, 112);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #login {
+    width: 80%;
+    padding: 8% 6% 6% 6%;
+    max-width: 50rem;
+    background-color: #ffffffd4;
+    border-radius: 5%;
+    box-sizing: border-box;
+    opacity: 0.9;
+    margin: 0 10% 0 10%;
+    
+    input {
+      font-family: 'Overpass', sans-serif;
+      font-size: 1.7rem;
+      color: #1b262c;
+      display: block;
+      width: 100%;
+      height: 4rem;
+      margin-bottom: 0px;
+      padding: 1px 1px 1px 4%;
+      box-sizing: border-box;
+      border-radius: 1rem;
+      border:  1px solid grey;
+      
+      &::placeholder {
+        font-family: 'Overpass', sans-serif;
+        color: #E4E4E4;
+      }
+    }
+    
+    button {
+      font-family: 'Overpass', sans-serif;
+      font-size: 200%;
+      font-weight: bold;
+      color: #ffffff;
+      width: 100%;
+      height: 40px;
+      border: none;
+      border-radius: 1rem;
+      background-color: #5ebeff;
+      margin-top: 8%;
+      
+      &:hover {
+        background-color: #0f4c75;
+        color: #bbe1fa;
+      }
+    }
+  }
+  
+  .pie-form {
+    font-size: 90%;
+    text-align: center;
+    margin-top: 15px;
+    
+    a {
+      display: block;
+      text-decoration: none;
+      color: #bbe1fa;
+      margin-bottom: 3px;
+      
+      &:hover {
+        color: #0f4c75;
+      }
+    }
+  }
+  
+  .inferior {
+    margin-top: 10px;
+    font-size: 90%;
+    text-align: center;
+    
+    a {
+      display: block;
+      text-decoration: none;
+      color: #bbe1fa;
+      margin-bottom: 3px;
+      
+      &:hover {
+        color: #3282b8;
+      }
+    }
+  }
+  
+  .sub-text {
+    padding: 12% 0 0 0;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(112, 112, 112);
+  }
+  
+  .text-log {
+    font-weight: 600;
+    padding: 2rem 0 0 0;
+    font-size: 1.7rem;
+    text-align: left;
+    color: rgb(112, 112, 112);
+  }
+  
+  .sub-forgot {
+    text-align: right;
+  }
+  
+  .logo_login {
+    width: 100%;
+    padding: 0 0 4% 0;
+  }
+  
+  .select-leng {
+    margin: 1% 0 0 0;
+    background-color: rgba(247, 12, 12, 0);
+    border: none;
+  }
+  
+}
+
+

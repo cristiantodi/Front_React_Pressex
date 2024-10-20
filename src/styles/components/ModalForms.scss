@@ -1,0 +1,56 @@
+/* ModalForms.scss */
+
+.modal-form {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  min-width: 107vw;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: none;
+  // justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+
+  &.is-open {
+    display: flex;
+    padding: 0 0 0 5%;
+  }
+}
+
+.modal__container {
+  position: relative;
+  // height: 32vw;
+  width: 90%;
+  // overflow-y: scroll;
+  padding: 1rem;
+  overflow-x: hidden;
+  color: black;
+  border-radius: 1rem;
+  background: white;
+  background-size: 300px 280px;         
+  background-position: right bottom; 
+  background-repeat: no-repeat; 
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 10);
+}
+
+.modal__close {
+  height: 3.3rem;
+  width: 3.3rem;
+  border-radius: 17px;
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+  background: #006BAD;
+  color: #ffffff;
+  transition: background-color 0.7s ease;
+  z-index: 1000;
+}
+.modal__close:hover {
+  background-color: rgb(88, 0, 0);; 
+  height: 3.5rem;
+  width: 3.5rem;
+  color: white;
+  font-size: 2.2rem;
+}
